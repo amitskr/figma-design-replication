@@ -234,6 +234,22 @@ h1 br {
     transition: 0.3s;
 }
 
+@media (max-width: 600px) {
+    .down-circle {
+        display: inline-block;
+        position: relative;
+        width: 56px;
+        height: 56px;
+        background-image: url("res/down-chevy-arrow.png"); /* Adjust the image URL as needed */
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex-shrink: 0; /* Prevent shrinking to keep the distance intact */
+        margin-top: 10px; /* Add margin to ensure space between elements */
+        transition: 0.3s;
+        border-radius: 50%;
+    }
+}
+
 .wavy-divider {
     width: 312px;
     height: 25px;
